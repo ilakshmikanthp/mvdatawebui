@@ -23,17 +23,18 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header page-header-small">
+      <div className="page-header page-header">
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg6.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/header.jpg") + ")"
           }}
           ref={pageHeader}
         ></div>
         <div className="content-center">
           <Container>
             <h1 className="title">MV DATA SYSTEMS</h1>
+            <h3>Consulting Services Optimized For Better Opportunities For Your Bright Career</h3>
             <div className="text-center">
               <Button
                 className="btn-icon btn-round"

@@ -35,13 +35,13 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Switch>
-        <Route path="/index" render={props => <Index {...props} />} />
+        <Route path="/landing-page" render={props => <Index {...props} />} />
         <Route
           path="/nucleo-icons"
           render={props => <NucleoIcons {...props} />}
         />
         <Route
-          path="/landing-page"
+          path="/"
           render={props => <LandingPage {...props} />}
         />
         <Route
@@ -49,8 +49,8 @@ ReactDOM.render(
           render={props => <ProfilePage {...props} />}
         />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
+        <Redirect to="/" />
+        <Redirect from="/" to="/" />
       </Switch>
     </Switch>
   </BrowserRouter>,

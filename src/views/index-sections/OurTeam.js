@@ -23,7 +23,7 @@ function OurTeam() {
                     className="rounded-circle img-fluid img-raised"
                     src={require("assets/img/avatar.jpg")}
                 ></img>
-                <h4 className="title">Romina Hadid</h4>
+                <h4 className="title"></h4>
                 <p className="category text-info">Model</p>
                 <p className="description">
                     You can write here details about one of your team members.

@@ -2,54 +2,33 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
+import ContactUs from "../../views/index-sections/ContactUs";
 
 function DarkFooter() {
   return (
     <footer className="footer" data-background-color="black">
-      <Container>
+      <ContactUs/>
+      <Container className="footer-top">
         <nav>
           <ul>
             <li>
               <a
-                href="https://www.creative-tim.com?ref=nukr-dark-footer"
-                target="_blank"
-              >
-                Lakshmikanth
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
+                href="#"
                 target="_blank"
               >
                 About Us
               </a>
             </li>
-            <li>
-              <a
-                href="http://blog.creative-tim.com?ref=nukr-dark-footer"
-                target="_blank"
-              >
-                Blog
-              </a>
-            </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
+          ©{new Date().getFullYear()},{" "}
           <a
-            href="https://www.CipherSwiftapp.com?ref=nukr-dark-footer"
+            href="#"
             target="_blank"
           >
-            CipherSwift
-          </a>
-          . Coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
-            Lakshmikanth
+            mvdatasystems
           </a>
           .
         </div>

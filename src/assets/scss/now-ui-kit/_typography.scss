@@ -95,6 +95,14 @@ p{
     color: $dark-gray;
     font-weight: $font-weight-light;
 }
+.description-padtop {
+    padding-top: $padding-description-top;
+}
+.footer-top {
+    border-top: 1px solid #f96332;
+    padding-top: 15px;
+    margin-top: 15px;
+}
 .category{
     text-transform: capitalize;
     font-weight: $font-weight-bold;

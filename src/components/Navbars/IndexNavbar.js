@@ -85,12 +85,12 @@ function IndexNavbar() {
           >
             <Nav navbar> 
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="#" tag={Link}>
                   About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink href="#">
                   Career
                 </NavLink>
               </NavItem>

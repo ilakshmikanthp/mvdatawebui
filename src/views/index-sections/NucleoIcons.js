@@ -19,12 +19,12 @@ function NucleoIcons() {
           <Col lg="6" md="12">
               <img
                 alt="..."
-                className="rounded-circle img-fluid img-raised mx-auto d-block"
+                className="rounded-circle img-raised mx-auto d-block"
                 style={styles}
                 src={require("assets/img/globe.png")}
               ></img>
-              <h2 className="title text-center">Nucleo Icons</h2>
-              <h5 className="description">
+              {/* <h2 className="title text-center">Nucleo Icons</h2> */}
+              <h5 className="description description-padtop">
               Work towards becoming the fastest growing IT Company in India, in terms of consulting, services and project delivery.
               </h5>
             </Col>
@@ -35,8 +35,8 @@ function NucleoIcons() {
                 style={styles}
                 src={require("assets/img/mobilepctab.png")}
               ></img>
-              <h2 className="title text-center">Nucleo Icons</h2>
-              <h5 className="description">
+              {/* <h2 className="title text-center">Nucleo Icons</h2> */}
+              <h5 className="description description-padtop">
               To deliver perfectly designed, cost effective solutions across multiple technologies, on time every time.
               </h5>
             </Col>
@@ -49,8 +49,8 @@ function NucleoIcons() {
                 style={style2}
                 src={require("assets/img/time.png")}
               ></img>
-              <h2 className="title text-center">Nucleo Icons</h2>
-              <h5 className="description">
+              {/* <h2 className="title tex  t-center">Nucleo Icons</h2> */}
+              <h5 className="description description-padtop">
                 We aim to give our employees every chance to flourish in their careers and grow as part of a 
                 global company, At MV Data Systems, we believe that an organization is only as successful as 
                 the people within it. We offer services that span the entire spectrum of software applications 
