@@ -66,7 +66,10 @@ function LandingPage() {
         </div>
         <div className="section section-team text-center">
           <Container>
-            <h2 className="title">Here is our team</h2>
+          <h2 className="title">Leadership</h2>
+        <h5>At MV Data Systems, our executive team is dedicated to the constant growth and development of the firm and its people. 
+        Over the last 20 years of success, our leaders have exemplified deep industry knowledge, 
+        unparalleled passion, and an inspiring sense of responsibility.</h5>
             <div className="team">
               <Row>
                 <Col md="4">
@@ -76,9 +79,9 @@ function LandingPage() {
                       className="rounded-circle img-fluid img-raised"
                       src={require("assets/img/avatar01.jpg")}
                     ></img>
-                    <h4 className="title">Moulali M</h4>
-                    <p className="category text-info">Manager</p>
-                    <p className="description">
+                    <h4 className="title">Banda K Kumar</h4>
+                    <p className="category text-info">Director</p>
+                    {/* <p className="description">
                       You can write here details about one of your team members.
                       You can give more details about what they do. Feel free to
                       add some{" "}
@@ -110,7 +113,7 @@ function LandingPage() {
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fab fa-facebook-square"></i>
-                    </Button>
+                    </Button> */}
                   </div>
                 </Col>
                 <Col md="4">
@@ -120,9 +123,9 @@ function LandingPage() {
                       className="rounded-circle img-fluid img-raised"
                       src={require("assets/img/ryan.jpg")}
                     ></img>
-                    <h4 className="title">Dileep Kumar Saripiralla</h4>
-                    <p className="category text-info">Director</p>
-                    <p className="description">
+                    <h4 className="title">S D Kumar</h4>
+                    <p className="category text-info">Vice President</p>
+                    {/* <p className="description">
                     Has 15 years of experience in bond and currency markets, particularly regarding emerging markets in Europe and Asia. 
                     He graduated from Imperial College London with a Masters degree in Information Systems Engineering{" "}
                       <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -145,7 +148,7 @@ function LandingPage() {
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fab fa-linkedin"></i>
-                    </Button>
+                    </Button> */}
                   </div>
                 </Col>
                 <Col md="4">
@@ -156,8 +159,8 @@ function LandingPage() {
                       src={require("assets/img/avatar02.jpg")}
                     ></img>
                     <h4 className="title">Lakshmikanth P</h4>
-                    <p className="category text-info">Manager</p>
-                    <p className="description">
+                    <p className="category text-info">Vice President</p>
+                    {/* <p className="description">
                       You can write here details about one of your team members.
                       You can give more details about what they do. Feel free to
                       add some{" "}
@@ -189,7 +192,7 @@ function LandingPage() {
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fab fa-twitter"></i>
-                    </Button>
+                    </Button> */}
                   </div>
                 </Col>
               </Row>

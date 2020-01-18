@@ -13,7 +13,10 @@ function OurTeam() {
     <>
     <div className="section section-team text-center">
         <Container>
-        <h2 className="title">Here is our team</h2>
+        <h2 className="title">LEADERSHIP</h2>
+        <h5>At MV Data Systems, our executive team is dedicated to the constant growth and development of the firm and its people. 
+        Over the last 20 years of success, our leaders have exemplified deep industry knowledge, 
+        unparalleled passion, and an inspiring sense of responsibility.</h5>
         <div className="team">
             <Row>
             <Col md="4">
@@ -34,7 +37,7 @@ function OurTeam() {
                     </a>{" "}
                     for people to be able to follow them outside the site.
                 </p>
-                <Button
+                {/* <Button
                     className="btn-icon btn-round"
                     color="info"
                     href="#pablo"
@@ -57,7 +60,7 @@ function OurTeam() {
                     onClick={e => e.preventDefault()}
                 >
                     <i className="fab fa-facebook-square"></i>
-                </Button>
+                </Button> */}
                 </div>
             </Col>
             <Col md="4">
@@ -78,7 +81,7 @@ function OurTeam() {
                     </a>{" "}
                     for people to be able to follow them outside the site.
                 </p>
-                <Button
+                {/* <Button
                     className="btn-icon btn-round"
                     color="info"
                     href="#pablo"
@@ -93,7 +96,7 @@ function OurTeam() {
                     onClick={e => e.preventDefault()}
                 >
                     <i className="fab fa-linkedin"></i>
-                </Button>
+                </Button> */}
                 </div>
             </Col>
             <Col md="4">
@@ -114,7 +117,7 @@ function OurTeam() {
                     </a>{" "}
                     for people to be able to follow them outside the site.
                 </p>
-                <Button
+                {/* <Button
                     className="btn-icon btn-round"
                     color="info"
                     href="#pablo"
@@ -137,7 +140,7 @@ function OurTeam() {
                     onClick={e => e.preventDefault()}
                 >
                     <i className="fab fa-twitter"></i>
-                </Button>
+                </Button> */}
                 </div>
             </Col>
             </Row>

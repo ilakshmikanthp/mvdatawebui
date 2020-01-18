@@ -55,11 +55,13 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section" id="carousel">
+    <div className="section">
         <Container>
-          <div className="title">
-            <h2>Clients</h2>
+          <h2 className="title text-center">Our Clients</h2>
+          </Container>
           </div>
+      <div className="section section-team text-center" id="carousel">
+      <Container>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
               <Carousel

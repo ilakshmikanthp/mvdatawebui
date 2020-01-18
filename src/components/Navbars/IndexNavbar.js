@@ -83,7 +83,7 @@ function IndexNavbar() {
             isOpen={collapseOpen}
             navbar
           >
-            <Nav navbar> 
+            {/* <Nav navbar> 
               <NavItem>
                 <NavLink to="#" tag={Link}>
                   About Us
@@ -94,7 +94,7 @@ function IndexNavbar() {
                   Career
                 </NavLink>
               </NavItem>
-            </Nav>
+            </Nav> */}
           </Collapse>
         </Container>
       </Navbar>
